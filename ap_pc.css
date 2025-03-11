@@ -91,7 +91,6 @@ body {
 	background-image: url("images/top.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
 
 /* 真ん中の部分 */
