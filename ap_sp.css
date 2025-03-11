@@ -1,0 +1,320 @@
+﻿/* フォント　※一番上に入れる */
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* リセットCSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 画面表示時 */
+.start {
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1000;
+}
+.start p img {
+	position: fixed;
+	left: 50%;
+	top: 45%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 1100;
+	width: 80%;
+}
+
+/* スマホだけ・PCだけ */
+@media(min-width:751px){
+	.sp{
+	display: none !important;
+	}
+}
+@media(max-width:750px){
+	.pc{
+	display: none !important;
+	}
+}
+
+/* 背景 */
+body {
+	color: #000;
+	background-color: #fff;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/* 真ん中の部分 */
+.main {
+	height: 100vh;
+	font-family: "Zen Kaku Gothic New", sans-serif;
+	font-size: 16px;
+	line-height: 2;	
+}
+.area1 {
+	height: 100vh;
+	background-color: rgba(255,255,255,0);
+	padding: 4% 0 5% 0;
+	text-align: center;
+}
+.area2 {
+	padding: 10% 5% 5% 5%;
+	background-color: #fff;
+	text-align: center;
+	color: #000;
+}
+.area3 {
+	padding: 10% 0 5% 0;
+	background-color: #fff;
+	text-align: center;
+	color: #000;
+}
+
+/* リンク */
+a {
+	color:#EF5184;
+	text-decoration: none;
+}
+a:visited {
+	color:#EF5184;
+}
+a:hover{ 
+	color:#000; 
+}
+
+/* 現在表示中メニュー */
+a.current {
+	color: #000;
+}
+
+/* p要素の余白 */
+p {
+	margin: 2em 1em;
+}
+
+/* 左よせ */
+.left {
+	text-align: left;
+}
+
+/* 太字 */
+#bold{
+	font-weight: bold;
+	margin: 0 1em 0 0;
+}
+
+/* スクロールバー */
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+::-webkit-scrollbar-track {
+	background: #000;
+}
+::-webkit-scrollbar-thumb {
+	background: #EF5184;
+}
+
+/* スムーススクロール */
+html {
+	scroll-behavior: smooth;
+}
+
+/* 見出し */
+h2 {
+	font-family: "Arsenal SC", sans-serif;
+	color: #EF5184;
+	font-weight: bold;
+	font-size:40px;
+}
+
+h3 {
+	font-family: "Arsenal SC", sans-serif;
+	color: #EF5184;
+	font-weight: bold;
+	font-size:30px;
+	border-top: 3px solid #EF5184;
+	border-bottom: 3px solid #EF5184;
+	padding: 0.1em 1em;
+}
+
+h4 {
+	font-family: "Arsenal SC", sans-serif;
+	color: #EF5184;
+	font-size:25px;
+	font-weight: bold;
+	background: transparent;
+	border-bottom: solid 2px #EF5184;
+}
+
+/* 上に戻るボタン */
+.pagetop {
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	background: #fff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+}
+.pagetop-arrow {
+	height: 10px;
+	width: 10px;
+	border-top: 3px solid #EF5184;
+	border-right: 3px solid #EF5184;
+	transform: translateY(20%) rotate(-45deg);
+}
+
+/* アンカー用 */
+a.anchor{
+	display: block;
+	padding-top: 4em;
+	margin-top: -4em;
+}
+
+/* フェードイン */
+.fadein {
+	opacity: 0;
+	transform: translate(0,-30px);
+	transition: all 1.0s;
+}
+.fadein.fade-scroll {
+	opacity : 1;
+	transform : translate(0, 0);
+}
+
+/* メニュー(PC) */
+.menu {
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+	padding-top: 5px;
+	box-sizing: border-box;
+	position: fixed;
+	z-index: 100; 
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+}
+.menu ul {
+	display: grid;
+	grid-template-columns:150px 150px 150px 150px;
+	place-content: center;
+	text-align: center;
+	gap: 10px;
+	margin: 0 0 0 50%; 
+}
+.menu li {
+	list-style: none;
+	font-family: "Arsenal SC", sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: #B22D5E;
+	margin: 0.5em 0em; 
+}
+
+/* 上のロゴ */
+#logo1 img {
+	height: 130px;
+	z-index: 200; 
+	position: fixed;
+}
+
+/* トップのレイアウト */
+.top {
+	display: grid;
+	grid-template-columns: 55% 45%;
+}
+.topimg img {
+	width: 100%;
+}
+
+/* トップのロゴ */
+#logo2 img {
+	width: 500px;
+	margin: 30% 0 0 0;
+}
+
+/* ループスライダー */
+#loopslider img {
+	width: 800px;
+}
+
+/* キャラリスト */
+.active {
+	opacity: .5;
+}
+.chara-list {
+	display: flex;
+	margin: 10px -5px 0;
+	padding: 0;
+	place-content: center;
+}
+.chara {
+	list-style: none;
+	margin: auto 5px;
+}
+.chara a {
+	display: block;
+	outline: none;
+}
+.chara img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 1px solid #EF5184;
+}
+.chara-pv img {
+	width: 70%;
+}
