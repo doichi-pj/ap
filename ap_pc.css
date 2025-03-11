@@ -320,6 +320,7 @@ a.anchor{
 }
 
 /* ムービー */
-.movie {
+.movie img {
 	width: 800px;
+	place-content: center;
 }

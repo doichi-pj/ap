@@ -321,6 +321,7 @@ a.anchor{
 }
 
 /* ムービー */
-.movie {
+.movie img {
 	width: 100%;
+	place-content: center;
 }
