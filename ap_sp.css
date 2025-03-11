@@ -246,7 +246,7 @@ h4 {
 	place-content: center;
 }
 .chara {
-	list-style: none;
+	width: 100%;
 }
 .chara a {
 	display: block;
