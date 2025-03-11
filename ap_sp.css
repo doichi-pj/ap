@@ -97,7 +97,7 @@ body {
 .main {
 	height: 100vh;
 	font-family: "Zen Kaku Gothic New", sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 2;	
 }
 .area1 {
@@ -282,7 +282,7 @@ a.anchor{
 
 /* トップのロゴ */
 #logo2 img {
-	width: 500px;
+	width: 100%;
 	margin: 30% 0 0 0;
 }
 
@@ -296,6 +296,7 @@ a.anchor{
 	opacity: .5;
 }
 .chara-list {
+	width: 100%;
 	display: flex;
 	margin: 10px -5px 0;
 	padding: 0;
@@ -316,5 +317,10 @@ a.anchor{
 	border: 1px solid #EF5184;
 }
 .chara-pv img {
-	width: 70%;
+	width: 100%;
+}
+
+/* ムービー */
+.movie {
+	width: 100%;
 }
