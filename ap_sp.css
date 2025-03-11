@@ -241,7 +241,7 @@ h4 {
 .chara-list {
 	width: 100%;
 	display: flex;
-	margin: 10px -5px 0;
+	margin: 5px -5px 0;
 	padding: 0;
 	place-content: center;
 }
@@ -254,7 +254,6 @@ h4 {
 	outline: none;
 }
 .chara img {
-	width: 14%;
 	border-radius: 50%;
 	border: 1px solid #EF5184;
 }
