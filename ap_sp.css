@@ -102,7 +102,7 @@ body {
 }
 .area1 {
 	height: 100vh;
-	background-color: rgba(255,255,255,0);
+	background-image: url("images/top_sp.webp");
 	padding: 4% 0 5% 0;
 	text-align: center;
 }
@@ -218,13 +218,6 @@ h4 {
 	transform: translateY(20%) rotate(-45deg);
 }
 
-/* アンカー用 */
-a.anchor{
-	display: block;
-	padding-top: 4em;
-	margin-top: -4em;
-}
-
 /* フェードイン */
 .fadein {
 	opacity: 0;
@@ -234,56 +227,6 @@ a.anchor{
 .fadein.fade-scroll {
 	opacity : 1;
 	transform : translate(0, 0);
-}
-
-/* メニュー(PC) */
-.menu {
-	width: 100%;
-	height: 60px;
-	background-color: #fff;
-	padding-top: 5px;
-	box-sizing: border-box;
-	position: fixed;
-	z-index: 100; 
-	box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
-}
-.menu ul {
-	display: grid;
-	grid-template-columns:150px 150px 150px 150px;
-	place-content: center;
-	text-align: center;
-	gap: 10px;
-	margin: 0 0 0 50%; 
-}
-.menu li {
-	list-style: none;
-	font-family: "Arsenal SC", sans-serif;
-	font-size: 25px;
-	font-weight: bold;
-	color: #B22D5E;
-	margin: 0.5em 0em; 
-}
-
-/* 上のロゴ */
-#logo1 img {
-	height: 130px;
-	z-index: 200; 
-	position: fixed;
-}
-
-/* トップのレイアウト */
-.top {
-	display: grid;
-	grid-template-columns: 55% 45%;
-}
-.topimg img {
-	width: 100%;
-}
-
-/* トップのロゴ */
-#logo2 img {
-	width: 100%;
-	margin: 30% 0 0 0;
 }
 
 /* ループスライダー */
