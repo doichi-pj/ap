@@ -151,6 +151,12 @@ p {
 	margin: 0 1em 0 0;
 }
 
+/* 大文字 */
+#large{
+	font-size: 18px;
+	font-weight: bold;
+}
+
 /* スクロールバー */
 ::-webkit-scrollbar {
 	width: 5px;
