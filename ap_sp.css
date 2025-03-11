@@ -239,9 +239,9 @@ h4 {
 	opacity: .5;
 }
 .chara-list {
-	width: 100%;
-	display: flex;
-	margin: 5px -5px 0;
+	display: grid;
+	grid-template-columns: 10% 10% 10% 10% 10% 10% 10%;
+	gap: 2px;
 	padding: 0;
 	place-content: center;
 }
