@@ -262,9 +262,3 @@ h4 {
 .chara-pv img {
 	width: 100%;
 }
-
-/* ムービー */
-.movie img {
-	width: 100%;
-	place-content: center;
-}

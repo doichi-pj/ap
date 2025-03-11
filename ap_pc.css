@@ -326,9 +326,3 @@ a.anchor{
 .chara-pv img {
 	width: 70%;
 }
-
-/* ムービー */
-.movie img {
-	width: 800px;
-	place-content: center;
-}
