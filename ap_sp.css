@@ -240,20 +240,20 @@ h4 {
 }
 .chara-list {
 	display: grid;
-	grid-template-columns: 10% 10% 10% 10% 10% 10% 10%;
+	grid-template-columns: 12% 12% 12% 12% 12% 12% 12%;
 	gap: 2px;
 	padding: 0;
 	place-content: center;
 }
 .chara {
-	width: 100%;
+	width: 12%;
 }
 .chara a {
 	display: block;
 	outline: none;
 }
 .chara img {
-	width: 100%;
+	width: 12%;
 	border-radius: 50%;
 	border: 1px solid #EF5184;
 }
