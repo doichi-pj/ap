@@ -88,6 +88,7 @@ table {
 body {
 	color: #000;
 	background-color: #fff;
+	background-image: url("images/top.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -117,6 +118,13 @@ body {
 	background-color: #fff;
 	text-align: center;
 	color: #000;
+}
+
+/* ロゴ */
+#logo img {
+	width: 400px;
+	border-radius: 5px;
+	margin: 100px auto 0px;	
 }
 
 /* リンク */
