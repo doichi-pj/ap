@@ -201,6 +201,12 @@ h4 {
 	border-bottom: solid 2px #EF5184;
 }
 
+/* トップのロゴ */
+#logo2 img {
+	width: 90%;
+	margin: 50% 0 0 0;
+}
+
 /* 上に戻るボタン */
 .pagetop {
 	height: 50px;

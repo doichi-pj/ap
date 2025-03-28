@@ -279,24 +279,15 @@ a.anchor{
 
 /* 上のロゴ */
 #logo1 img {
-	height: 130px;
+	width: 350px;
 	z-index: 200; 
 	position: fixed;
 }
 
-/* トップのレイアウト */
-.top {
-	display: grid;
-	grid-template-columns: 55% 45%;
-}
-.topimg img {
-	width: 100%;
-}
-
 /* トップのロゴ */
 #logo2 img {
-	width: 500px;
-	margin: 30% 0 0 0;
+	width: 600px;
+	margin: 10% 0 0 55%;
 }
 
 /* ループスライダー */
