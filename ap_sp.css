@@ -204,7 +204,7 @@ h4 {
 /* トップのロゴ */
 #logo2 img {
 	width: 95%;
-	margin: 70% 0 0 0;
+	margin: 80% 0 0 0;
 }
 
 /* 上に戻るボタン */
@@ -271,4 +271,29 @@ h4 {
 }
 .chara-pv img {
 	width: 100%;
+}
+
+/* 体験版ボタン */
+a.demobtn {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 80%;
+	margin: auto;
+	padding: 10px 2em;
+	font-family: "Kaisei Decol", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #EF5184;
+	background: #FFF;
+	border: 2px solid #EF5184;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+a.demobtn:hover {
+	color: #FFF;
+	background: #EF5184;
+	border: 2px solid #EF5184;
 }

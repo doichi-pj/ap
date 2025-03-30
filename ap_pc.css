@@ -1,6 +1,7 @@
 ﻿/* フォント　※一番上に入れる */
 @import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -294,6 +295,32 @@ a.anchor{
 #loopslider img {
 	width: 800px;
 }
+
+/* 体験版ボタン */
+a.demobtn {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 300px;
+	margin: auto;
+	padding: 10px 4em;
+	font-family: "Kaisei Decol", sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: #EF5184;
+	background: #FFF;
+	border: 2px solid #EF5184;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+a.demobtn:hover {
+	color: #FFF;
+	background: #EF5184;
+	border: 2px solid #EF5184;
+}
+
 
 /* キャラリスト */
 .active {
